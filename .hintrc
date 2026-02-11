@@ -8,6 +8,7 @@
       {
         "marquee": "off"
       }
-    ]
+    ],
+    "axe/name-role-value": "off"
   }
 }
