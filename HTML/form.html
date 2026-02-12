@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        lable : it is used to give a name to the input field 
+        input : it is used to take input from the user
+        textaera: it is used to take input from the user but it is used for large input like address, description etc.
+    
+        type : it is used to specify the type of input field like text, password, email, number etc.
+        -->
+
+    <form>
+
+        <label for="fn">First Name :</label>
+        <input type="text" id="fn" placeholder="First Name" required>
+
+        <br><br>
+
+        <label for="ln">Last Name :</label>
+        <input type="text" id="ln">
+
+        <br><br>
+
+        <label for="mail">E-mail :</label>
+        <input type="email" id="mail" placeholder="example123@gmail.com">
+
+        <br><br>
+
+        <label for="pass">Password :</label>
+        <input type="password" id="pass" placeholder="Password">
+
+        <br><br>
+
+        <label for="age">Age :</label>
+        <input type="number" id="age" placeholder="Age">
+
+        <br><br>
+
+        <label for="dob">Date of Birth :</label>
+        <input type="date" id="dob">
+
+        <br><br>
+
+        <label for="ge">Gender :</label>
+        <input type="radio" id="male" name="ge">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="ge">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="hobby">Hobby :</label>
+        <input type="checkbox" id="hobby1" name="hobby">
+        <label for="hobby1">Reading</label>
+        <input type="checkbox" id="hobby2" name="hobby">
+        <label for="hobby2">Traveling</label>
+        <input type="checkbox" id="hobby3" name="hobby">
+        <label for="hobby3">Cooking</label>
+        
+        <br><br>
+        
+        <label for="add">Address</label>
+        <textarea name="" id="add" cols="30" rows="5"></textarea>  
+        <br><br>
+
+        <label for="mb">Mobile Number :</label>
+        <input type="tel" id="mb">
+        <br><br>
+
+        <label for="cou">Country :</label>
+        <!-- drop down -->
+
+        <select name="" id="cou">
+            <option value="">select any one</option>
+            <option value="">India</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+            <option value="">Canada</option>
+        </select>
+        <br><br>
+
+        <label for="file">Upload File :</label>
+        <input type="file" id="file">
+
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>    
+
+</body>
+</html>
