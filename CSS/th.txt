@@ -1,0 +1,23 @@
+html -> file_name.html
+css -> .css  -> file extencion 
+
+types of css :
+        -> inline css
+        -> Interal css
+        -> external css 
+
+    
+
+loop : 
+
+        1
+            2
+                3
+                    4
+                        5
+
+1st  -> call 
+
+2nd -> call 
+
+3rd -> call
