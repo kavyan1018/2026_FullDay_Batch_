@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Units
+            -> px : pixels
+            -> em : relative to the font-size of the element (2em means 2 times the size of the current font) 
+            -> rem : relative to the font-size of the root element (html) (2rem means 2 times the size of the font of the root element)  1 rem = 16px
+            -> % : relative to the parent element (50% means 50% of the size of the parent element)
+    */
+
+
+        .outer-para{
+            font-size: 40px;
+            /* font-size: 16px; */
+            /* font-size: 1rem; */
+            /* line-height: 2rem; */
+            /* line-height: 2em; */
+            line-height: 1.5em;
+            /* 
+                em: multiple of its own font-size only when it is used in a property other than 'font-size'
+                em: If em is used in the 'font-size' property then it is multiple of parent's font-size.
+            */
+        }
+        .second-box{
+            /* font-size: 1rem; */
+            font-size: 22px;
+        }
+        .third-box{
+            /* font-size: 20px; */
+            /* font-size: 1.5rem;  1.5 * 16 = 24px */
+            font-size: 1.5em;  /*  */
+        }
+        .inner-para{
+            font-size: 1.5em;   /*  */
+            line-height: 1.3em; /*  */
+        }
+        #btn1{
+            /* font-size: 30px; */
+            font-size: 1.5rem; /* 24px */
+
+            /* height: 30px;
+            width: 100px; */
+            height: 1.5em;      /* 36px */
+            width: 6em;     /* 144px */
+        }
+</style>
+<body>
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet maxime eaque in eligendi voluptatum!
+    </h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet maxime eaque in eligendi voluptatum!
+    </h2>
+    <div class="box">
+        <div class="second-box">
+            <p class="outer-para">Outer para: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime eaque aperiam
+                asperiores est quis explicabo dolorem autem sapiente natus sequi excepturi quasi, magnam quod labore,
+                dolor, minus voluptatum officia. Eum repellendus molestias, est porro facilis corporis corrupti.
+                Voluptates illo illum veniam quibusdam consectetur quod numquam cumque quidem dolores dolor.</p>
+            <div class="third-box">
+                <p class="inner-para">Inner para: Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit
+                    inventore consequuntur provident culpa cupiditate odit, itaque vel id harum rem nisi dignissimos
+                    vitae porro?</p>
+            </div>
+        </div>
+    </div>
+    <button id="btn1">Button 1</button>
+    <button id="btn2">Button 2</button>
+    <button id="btn3">Button 3</button>
+</body>
+
+</html>
