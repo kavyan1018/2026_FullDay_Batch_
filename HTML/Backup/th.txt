@@ -1,0 +1,64 @@
+    dev -> 
+        1. web dev 
+            -> frontend
+                ->html, css, js 
+
+
+        2. backend
+            -> nodejs, python, java, php, c#, ruby, go, rust
+
+        3. Database
+            -> mysql, postgresql, mongodb, redis, cassandra, sqlite
+
+
+html 1  -> 1994 
+
+Html -> hyper text markup lang 
+version -> 5 (2014)
+
+css -> for styling the html pages  1996
+
+
+-----------------------------------------
+
+html -> 
+
+            tags -> open_tag, closing_tag, and self Closing tag
+
+            open tag        close tag
+            <tag_name>      </tag_name>
+                <html> </html>
+
+                <br>
+                <hr>
+
+
+c -> .c
+py -> .py
+cpp -> .cpp
+java -> .java
+
+html -> file_name.html    
+
+html -> vs , notepad, dreamweaver 
+
+---------------------------------------------
+
+
+<!DOCTYPE html>  --> Document type html 
+<html lang="en"> -> that specifies the lang of the elements 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+        conains the content of the html doc 
+
+</body>
+
+
+</html>
