@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    img{
+        /* px, %, rem , em , vw -> viewport width , vh -> viewport height */
+
+        /* vw & vh */
+
+        /* width: 100vw; */
+        /* width: 50vw; */
+        /* width: 120vw; */
+
+        /* height: 600px; */
+            /* height: 100vh; */
+    }
+
+    .outer{
+        background-color: yellow;
+        height: 500px;
+        width: 1200px;
+        /* width: 90vw; */
+    }
+
+    .inner{
+        background-color: red;
+        height: 350px;
+        width: 90%;  /*1080px*/
+        /* width: 100vw; */
+    }
+
+    .inner-most{
+        background-color: black;
+        /* background-color: rgb(155, 213, 78); */
+        /* background-color: #9BD54E; */
+        /* background-color: rgba(39, 243, 8, 0.5); */
+        /* background-color: rgba(39, 243, 8, 0.5); */
+
+        height: 200px;
+        width: 80%; 
+    }
+
+    a{
+        color : black;
+        text-decoration: none;
+        font-size: 1.3rem;
+        background-color: white;
+        width: 266px;
+        height: 100vh;
+    }
+</style>
+<body>
+    <!-- <img src="https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg" alt=""> -->
+    <div class="outer">
+        <br><br><br>
+        <div class="inner">
+            <br><br><br>
+            <div class="inner-most">
+                <br><br><br><br>
+                <a href="#">Click me</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
