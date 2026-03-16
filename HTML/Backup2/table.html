@@ -21,6 +21,8 @@
         cellpadding : space between cell content and cell border
         cellspacing : space between cells
     
+        rowspan : number of rows a cell should span
+        colspan : number of columns a cell should span
         -->
 
     <table border="2" >
@@ -36,20 +38,20 @@
 
         <tr>
             <td>Mihir</td>
-            <td>25</td>
+            <td rowspan="2">25</td>
             <td>New York</td>
         </tr>
 
         <tr>
             <td>Riya</td>
-            <td>30</td>
+            <!-- <td>30</td> -->
             <td>Los Angeles</td>
         </tr>
 
         <tr align="center">
             <td>Arjun</td>
-            <td>28</td>
-            <td>Chicago</td>
+            <td colspan="2" bgcolor="red">28</td>
+            <!-- <td>Chicago</td> -->
         </tr>
 
     </table>
