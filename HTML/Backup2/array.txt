@@ -1,0 +1,27 @@
+
+
+   //  int a = 10;
+   // int b = 20;
+   // int c = 30;
+
+// array : 
+    -> to store multiple values in a single variable
+
+
+types of array : 
+    1D array 
+    2D array    
+    multidimensional array
+
+Syntax :
+
+    1D array :
+
+    data_type  array_name[size];
+        int    arr[5];
+
+                0 -> 
+                1 ->
+                2 ->
+                3 ->
+                4 ->

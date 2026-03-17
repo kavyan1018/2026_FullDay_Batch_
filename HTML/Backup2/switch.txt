@@ -1,0 +1,20 @@
+switch case : 
+    switch is use to perform different actions based on different conditions.
+
+
+Syntax :
+
+    switch(expression)
+    {
+        case 1:
+            // code to be executed if expression == 1
+            break;
+
+        case 2:
+            // code to be executed if expression == 2
+            break;  
+
+        default:  
+            // code to be executed if expression doesn't match any case
+            break;
+    }
