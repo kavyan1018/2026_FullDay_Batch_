@@ -1,0 +1,13 @@
+string : 
+    it is a sequence of characters.
+
+
+syntax :
+
+    char a[20];
+    char a[] = "Hello";
+    char a[] = {'H', 'e', 'l', 'l', 'o'};
+
+
+gets()  -> it is used to read a string from the user.
+puts()  -> it is used to print a string on the console.
