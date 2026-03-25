@@ -11,3 +11,13 @@ syntax :
 
 gets()  -> it is used to read a string from the user.
 puts()  -> it is used to print a string on the console.
+
+
+string functions :
+    1. strlen()  -> it is used to find the length of a string.
+    2. strcpy()  -> it is used to copy one string into another string.
+    3. strcat()  -> it is used to concatenate two strings.
+    4. strcmp()  -> it is used to compare two strings.
+    5. strrev()  -> it is used to reverse a string.
+    6. strlwr()  -> it is used to convert a string to lowercase.
+    7. strupr()  -> it is used to convert a string to uppercase.
