@@ -1,0 +1,8 @@
+there is total 4 types of functions in c programming language
+
+
+    1. WR-WA : with return type and with argument
+    2. WR-NA : with return type and without argument
+    3. NR-WA : without return type and with argument
+    4. NR-NA : without return type and without argument
+    5. Recursive function
