@@ -1,0 +1,16 @@
+-> User define
+
+structure in c 
+    -> collection of multiple data types that's call structure
+
+
+syntax:
+    struct structure_name
+    {
+        data_type member1;
+        data_type member2;
+        data_type member3;
+        .
+        .
+        .
+    };
