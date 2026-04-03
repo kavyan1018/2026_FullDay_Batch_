@@ -1,0 +1,19 @@
+pointer in c 
+    -> it is use to store the another variable memory location
+
+
+&variable_name -> it is use to find the address of the variable
+*pointer_name -> it is use to find the value of the variable which is stored in the pointer
+
+
+    int a = 10;
+    int *x
+
+    x  =  &a; // x is storing the address of a
+
+
+
+    a -> normal variable storing value of a => 10
+    &a -> it is giving the address of a => EX. 0x7ffdfc8b8a2c
+    x -> it is giving the value of a which is stored in x => 10
+    *x -> it is giving the value of a which is stored in x => 10
