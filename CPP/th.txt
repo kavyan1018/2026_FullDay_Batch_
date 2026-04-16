@@ -1,0 +1,24 @@
+c -> file -> file_name.c 
+
+    -> file_name.cpp
+
+header files 
+
+    c -> 
+        printf 
+        scanf
+
+    cpp ->
+
+
+    iostream  -> that means input output stream
+
+    what is stream?
+    stream is a sequence of data that is being transferred from one place to another.
+
+        printf -> cout
+        scanf -> cin
+
+        () -> << -> left shift operator
+
+        () -> >> -> right shift operator
