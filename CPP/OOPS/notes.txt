@@ -17,6 +17,9 @@ oops main 4 pillars:
         Fruit          apple, orange, banana
 
 
+    public, private
+
+
         1. Encapsulation
         2. Abstraction
         3. Inheritance
