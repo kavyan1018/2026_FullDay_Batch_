@@ -1,0 +1,23 @@
+oop --> Object-Oriented Programming language
+
+oops main 4 pillars:
+
+    class : 
+        blueprint of an object 
+            collection of data members and member functions
+
+    object :
+        instance of a class
+            identity of class , entity
+            
+
+
+        class         Object 
+        Hospital       doctor, nurse, patient
+        Fruit          apple, orange, banana
+
+
+        1. Encapsulation
+        2. Abstraction
+        3. Inheritance
+        4. Polymorphism
