@@ -44,6 +44,7 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
+        cout << "Enter Details of Person " << i + 1 << endl;
 
         cout << "Enter Name : ";
         cin >> name;
