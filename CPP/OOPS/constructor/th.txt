@@ -1,0 +1,37 @@
+A constructor is a special member function of a class that is automatically called when an object is created.
+
+
+key points :
+    Name is same as class name
+    No return type
+    Automatically called when object is created
+    Used to set initial values for object attributes
+
+
+    Student s1; // constructor is called here
+
+            ("Rahul ", 85)
+
+            Student -> class name
+            s1 -> object name 
+            ("Rahul ", 85) -> values passed to constructor
+
+
+
+            s1 -> object created
+
+
+            name -> Rahul 
+            marks -> 85
+
+            s1.name -> Rahul
+            s1.marks -> 85
+
+
+    Object created -> Constructor called ->  Values assigned
+
+
+types of constructor :
+    1. Default constructor -> a constructor that takes no parameters
+    2. Parameterized constructor -> a constructor that takes parameters
+    3. Copy constructor -> a constructor that creates a new object as a copy of an existing object
