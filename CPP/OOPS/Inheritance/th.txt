@@ -1,0 +1,20 @@
+inheritance :
+
+    -> in -> means one class can use properties and functions of another class
+
+Parent class -> base class 
+Child class -> derived class
+
+
+                   Father :  house , car , land , business
+                      |
+                    child :  house , car , land , business , bike , mobile , laptop
+
+
+types of inheritance :
+
+1. single inheritance : when one child class inherits from one parent class
+2. multilevel inheritance : when one child class inherits from one parent class and then another child class inherits from that child class
+3. multiple inheritance : when one child class inherits from more than one parent class
+4. hierarchical inheritance : when one parent class has more than one child class
+5. hybrid inheritance : when one child class inherits from more than one parent class and also has
