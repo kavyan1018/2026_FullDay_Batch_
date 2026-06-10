@@ -1,0 +1,14 @@
+a friend function is a function that is not a member of a class but has access to the private and protected members of the class. It is declared using the keyword "friend" inside the class definition.
+
+
+class MyClass {
+
+
+    private:
+        int privateData;
+
+    public:
+        
+        friend void friendFunction(MyClass& obj);
+
+};
