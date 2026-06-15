@@ -1,0 +1,129 @@
+=========================================
+COMPILE TIME POLYMORPHISM TASKS IN C++
+=========================================
+
+1. Function Overloading - Area Calculator
+-----------------------------------------
+Create a class Area with overloaded area() functions:
+- area(int side)          -> Area of Square
+- area(int l, int b)      -> Area of Rectangle
+- area(float radius)      -> Area of Circle
+
+=========================================
+
+2. Function Overloading - Sum Calculator
+----------------------------------------
+Create overloaded sum() functions:
+- Sum of 2 integers
+- Sum of 3 integers
+- Sum of 2 float numbers
+
+=========================================
+
+3. Function Overloading - Employee Details
+------------------------------------------
+Create a class Employee with overloaded display() functions:
+- Display employee name
+- Display employee name and salary
+- Display employee name, salary, and department
+
+=========================================
+
+4. Function Overloading - Volume Calculator
+-------------------------------------------
+Create overloaded volume() functions:
+- Volume of Cube
+- Volume of Cuboid
+- Volume of Cylinder
+
+=========================================
+
+5. Function Overloading - Bank Interest
+---------------------------------------
+Create overloaded interest() functions:
+- Calculate interest for int amount
+- Calculate interest for float amount
+- Calculate interest for double amount
+
+=========================================
+
+6. Operator Overloading - Complex Number Addition
+-------------------------------------------------
+Create a class Complex and overload '+' operator
+to add two complex numbers.
+
+=========================================
+
+7. Operator Overloading - Distance Addition
+-------------------------------------------
+Create a class Distance containing:
+- Feet
+- Inches
+
+Overload '+' operator to add two distance objects.
+
+=========================================
+
+8. Operator Overloading - Student Marks Comparison
+--------------------------------------------------
+Create a class Student containing marks.
+Overload '>' operator to compare two students.
+
+=========================================
+
+9. Operator Overloading - Counter Increment
+-------------------------------------------
+Create a class Counter.
+Overload:
+- Prefix ++
+- Postfix ++
+
+=========================================
+
+10. Operator Overloading - Matrix Addition
+------------------------------------------
+Create a class Matrix (2x2).
+Overload '+' operator to add two matrices.
+
+=========================================
+
+11. Operator Overloading - Number Multiplication
+------------------------------------------------
+Create a class Number.
+Overload '*' operator to multiply two objects.
+
+=========================================
+
+12. Operator Overloading - Account Balance
+------------------------------------------
+Create a class Account with balance.
+Overload '+' operator to combine balances
+of two accounts.
+
+=========================================
+
+13. Function Overloading - Student Result
+-----------------------------------------
+Create overloaded result() functions:
+- Result of 1 subject
+- Result of 3 subjects
+- Result of 5 subjects
+
+=========================================
+
+14. Function Overloading - Temperature Conversion
+-------------------------------------------------
+Create overloaded convert() functions:
+- Celsius to Fahrenheit
+- Fahrenheit to Celsius
+
+=========================================
+
+15. Mini Project - Calculator
+-----------------------------
+Create a Calculator class and overload:
++ , - , * , /
+
+Perform operations using objects.
+
+=========================================
