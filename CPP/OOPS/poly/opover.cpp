@@ -12,10 +12,21 @@ class Test{
             num = a;
         }
 
+        /*
+            return_type  operator symbol(args){
+            
+                // code 
+
+            }
+        */
+
+
+        // Operator Overloading function to overload the * operator
         Test operator *(Test t){
 
-            return Test(num + t.num);
+            return Test(num + t.num); // this creates a new object and returns it to the caller
 
+                    // Test(30)
         }
 
         void display(){
