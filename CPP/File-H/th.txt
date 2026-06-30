@@ -1,0 +1,5 @@
+-> fstream
+
+ofstream  -> write data to file
+ifstream  -> read data from file
+fstream   -> read and write data to/from file
