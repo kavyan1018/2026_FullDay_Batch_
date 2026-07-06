@@ -1,0 +1,35 @@
+An exception is an unexpected error that occurs while a program is running (runtime error).
+
+
+    why we use the exception handling ? 
+            -> exception handling is a mechanism in c++ that allows a program to deal with unexpected situations (errors) in a controlled manner. It helps to maintain the normal flow of the application even when an error occurs.
+
+
+        -> why need 
+
+            -> Whithout exception handling, when an error occurs:
+
+                -> the program crashes a runtime error occurs
+                -> remaining code is not executed
+                -> the program may produce incorrect results
+                -> the user gets a poor experiencee
+                -> Data may be lost or corrupted
+
+
+            -> with exception handling, when an error occurs:
+
+                    -> Runtime error is caught and handled with safely
+                    -> The program can continue to run or terminate gracefully
+                    -> Error messages can be displayed to the user
+                    -> the program becomes more reliable and robust
+
+
+
+
+
+            try{
+                // code that may throw an exception
+            }
+            catch(msg){
+                // code to handle the exception
+            }
