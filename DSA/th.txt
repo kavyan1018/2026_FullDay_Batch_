@@ -1,0 +1,64 @@
+                                    DSA -> Data Structures and Algorithms
+
+
+
+            DS                                                                           A
+            |                                                                            |
+        Data Structures                                                              Algorithms
+
+
+    DS -> A way to organize and store data so it can be accessed and modified efficiently. 
+    A ->  A step-by-step procedure or formula for solving a problem or performing a task.
+
+
+    efficiently -> it means to do something in a way that saves time, effort, or resources. 
+
+
+
+
+        Library
+
+            Books -> data 
+            Bookshelf -> data structure (how books are organized)
+            Method to find a book -> algorithm (step-by-step procedure to find a book)
+
+
+    Linear -> stores data in a sequential manner, one after the other. 
+    Non-Linear -> stores data in a hierarchical manner, where data is connected in a non-sequential way.
+
+
+            Linear DSA                                                   Non-Linear DSA
+                |                                                            |
+            1. Arrays                                                       1. Trees                                              
+            2. Linked Lists                                                 2. Graphs
+            3. Stacks                                                    
+            4. Queues
+
+
+            Searching -> process of finding a specific element in a data structure.
+            Sorting -> process of arranging elements in a specific order (ascending or descending).
+
+
+
+        Searching Algorithms                                            Sorting Algorithms
+
+            1. Linear Search                                                1. Bubble Sort
+            2. Binary Search                                                2. Selection Sort
+                                                                            3. Insertion Sort
+                                                                            4. Merge Sort
+                                                                            5. Quick Sort
+
+
+-------------------------------------------------------------
+
+complexity  
+    
+    -> it means the amount of resources (time and space) required by an algorithm to solve a problem as a function of the size of the input.
+
+
+
+time complexity -> it refers to the amount of time an algorithm takes to complete..
+time complexity = O(n) -> linear time complexity, that means the algorithm's running time increases linearly with the input size.
+
+space complexity -> it refers to the amount of memory an algorithm uses to complete.
+space complexity = O(1)  -> constant space complexity, that means the algorithm uses a fixed amount of memory regardless of the input size.
