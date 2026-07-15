@@ -33,6 +33,7 @@
             2. Linked Lists                                                 2. Graphs
             3. Stacks                                                    
             4. Queues
+            5. Dqueue
 
 
             Searching -> process of finding a specific element in a data structure.
