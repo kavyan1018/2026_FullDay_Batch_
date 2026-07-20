@@ -31,11 +31,11 @@ int main()
         }
         else if (arr[mid] < key)
         {
-            max = mid - 1;
+            min = mid + 1;
         }
         else
         {
-            min = mid + 1;
+            max = mid - 1;
         }
     }
 
