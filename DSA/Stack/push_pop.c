@@ -7,6 +7,19 @@
 int stack[MAX];
 int top = -1;
 
+// peek 
+
+int peek(){
+
+    if(top == -1){
+        printf("Stack is empty\n");
+        return -1;
+    }
+    else{
+        printf("Top element is: %d\n", stack[top]);
+    }
+}
+
 // pop
 int pop()
 {
@@ -67,7 +80,7 @@ int main()
     do
     {
         printf("\n-------------------Stack Operations---------------\n");
-        printf("\n1. Push\n2. Pop\n3. Display\n4. Exit\n");
+        printf("\n1. Push\n2. Pop\n3. Display  \n4. Peek\n5. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
@@ -95,6 +108,10 @@ int main()
             break;
 
         case 4:
+            peek();
+            break;
+
+        case 5:
             printf("Exiting...\n");
             break;
 
@@ -102,5 +119,5 @@ int main()
             printf("Invalid choice\n");
             break;
         }
-    }while (choice != 4);
+    }while (choice != 5);
 }
